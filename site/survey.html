@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+
+    <meta charset="utf-8">
+    <meta name="author" content="nick">
+    <meta name="website info" content="website for csd112 intro to html :)">
+    <title>Intro to HTML </title>
+</head>
+
+<body>
+    <div class="width-wrap">
+        <header id='top'>
+            <nav>
+                <ul>
+                    <li><a href=index.html title=Index> Index</a> </li>
+                    <li><a href=links.html title=Links> Links </a></li>
+                    <li><a href=glossary.html title=glossary> Glossary </a></li>
+                    <li><a href=survey.html title=survey> Survey</a></li>
+                </ul>
+            </nav>
+
+            
+                
+
+        </header>
+        <main>
+
+            <div>
+                <h1>Survey</h1>
+                
+                <form value="https://formspree.io/f/myzeyqrn" method="post">
+                    <p>
+                        <label for="name_field">What is your name? *</label>
+                        <input type="text" id="name_field" name="name_field" required>
+                    </p>
+
+                    <p>
+                        <label for="email_field"> Enter your Email. *</label>
+                        <input type="email" id="email_field" name="email_field" required>
+
+                    </p>
+
+                    <p>
+                        <label for="best_number_field">What is the best whole number?</label>
+                        <input type="number" id="best_number_field" name="best_number_field" min="1">
+                    </p>
+
+                    <p>
+                        <label for="best_date_field">What is the best day?</label>
+                        <input type="date" id="best_date_field" name="best_date_field">
+                    </p>
+
+                    <p>
+                        <label for="best_bear">What is the best bear? *</label>
+                    
+                        <select name="best_bear">
+                            <option value="%nbsp" selected> </option>
+                            <option value="black" select>Black Bear</option>
+                            <option value="brown" select>Brown Bear</option>
+                            <option value="care" select>CareBear</option>
+                            <option value="panda" select>Panda Bear</option>
+                            <option value="polar" select>Polar Bear</option>
+                            <option value="teddy" select>Teddy Bear</option>
+                        </select required>
+                    </p>
+
+
+                    <fieldset>
+                        <legend>Do you like radio buttons?</legend>
+                        <ul>
+                            <label>
+                                <input type="radio" name="enjoy_radio" id="enjoy_radio" value="?" checked>
+                                <label for="enjoy_radio">None of your business</label>
+                            </label>
+                        </ul>
+                        <ul>
+                            <label>
+                                <input type="radio" name="enjoy_radio" id="enjoy_radio" value="yes">
+                                <label for="enjoy_radio">Yes</label>
+                            </label>
+                        </ul>
+                        <ul>
+                            <label>
+                                <input type="radio" name="enjoy_radio" id="enjoy_radio" value="no">
+                                <label for="enjoy_radio">No</label>
+                            </label>
+                        </ul>
+                    </fieldset>
+
+
+                    <p>
+                        <label for="life_meaning">What is the meaning of life? </label>
+                        <textarea name="life_meaning" id="life_meaning" rows="5" cols="50" placeholder="enter correct answer here">
+                        
+                        </textarea>
+                    </p>
+
+                    <p>
+                        <button type="submit">Send</button>
+                    </p>
+
+                </form>
+
+            </div>
+
+        </main>
+        <footer>
+            <hr>
+            <blockquote>"and the universe said i love you because you are love"</blockquote>
+            <cite>&mdash; <span class="author">Julian Gough</span></cite>
+            <p>&copy; 2025 <a href="mailto:24029265@saultcollege.ca?subject=Message from CSD112 Website">Nick
+                    Oleksak</a></p>
+
+
+
+            <picture>
+                <source media="images/sc logo/sc-logo_105.png 1.5x">
+                <source media="images/sc logo/sc-logo_140.png 2x">
+                <img src="images/sc logo/sc-logo.svg" width="70" alt="sault college logo">
+            </picture>
+
+        </footer>
+        <a href=#top title="back to top"> ◤</a>
+    </div>
+</body>
+
+</html>
